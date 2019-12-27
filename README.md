@@ -13,7 +13,7 @@
  - Batfish and Batfish Ansible Role
  - Network Engine Role
 
-\* if you are not sure which image to use, go with this one, Bionic Immigrant! It's the most mature, based on Ubuntu Long Term Support (LTS),  supports the automated Documentation examples you may have seen, and includes the [Batfish](https://www.batfish.org/) client, [Batfish Ansible module/role](https://www.intentionet.com/blog/announcing-batfish-ansible/),  and [Ansible Network Engine role](https://www.ansible.com/introducing-ansible-network-engine-role).  It is also the image that will run all of my shared repositories.
+\* if you are not sure which image to use, go with this one, Bionic Immigrant! It's the most mature, based on Ubuntu Long Term Support (LTS),  supports the automated Documentation examples you may have seen, and includes the [Batfish](https://www.batfish.org/) client, [Batfish Ansible module/role](https://www.intentionet.com/blog/announcing-batfish-ansible/),  and [Ansible Network Engine role](https://www.ansible.com/introducing-ansible-network-engine-role).  It is also the image that will run all of my shared repositories.  Please also note that it is ~2GB in size.
 
 ![Docker Icon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmA-f2WW29z9uI8XXgshto0EjIOUqWwrRPBnpkaeQbOpFZRuW)
 
