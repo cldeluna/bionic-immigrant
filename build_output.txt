@@ -1,0 +1,35 @@
+Sending build context to Docker daemon  596.5kB
+Step 1/39 : FROM ubuntu:19.04
+19.04: Pulling from library/ubuntu
+b21821a62007: Pulling fs layer
+3052859eed30: Pulling fs layer
+fba68c591566: Pulling fs layer
+aab6656eb3a7: Pulling fs layer
+aab6656eb3a7: Waiting
+fba68c591566: Verifying Checksum
+fba68c591566: Download complete
+3052859eed30: Verifying Checksum
+3052859eed30: Download complete
+aab6656eb3a7: Download complete
+b21821a62007: Verifying Checksum
+b21821a62007: Download complete
+b21821a62007: Pull complete
+3052859eed30: Pull complete
+fba68c591566: Pull complete
+aab6656eb3a7: Pull complete
+Digest: sha256:994afd4700257cf708b1a8ded7b94d70326a814bc95a6f486247a8790d7c5a70
+Status: Downloaded newer image for ubuntu:19.04
+ ---> 51b0783967fc
+Step 2/39 : LABEL maintainer="Claudia de Luna <claudia@indigowire.net>"
+ ---> Running in 0e1abdd97012
+Removing intermediate container 0e1abdd97012
+ ---> 43681cf489f5
+Step 3/39 : MAINTAINER Claudia de Luna "<claudia@indigowire.net>"
+ ---> Running in 74e36c9fc81d
+Removing intermediate container 74e36c9fc81d
+ ---> 9f07e8a65275
+Step 4/39 : RUN apt-get -y update
+ ---> Running in 826605d18e3d
+Get:1 http://security.ubuntu.com/ubuntu disco-security InRelease [97.5 kB]
+Get:2 http://archive.ubuntu.com/ubuntu disco InRelease [257 kB]
+Get:3 http://security.ubuntu.com/ubuntu disco-security/multiverse amd64 Packages [1381 B]
