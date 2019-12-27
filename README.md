@@ -105,10 +105,16 @@ Claudias-iMac:bionic-immigrant claudia$ docker run -it cldeluna/bionic-immigrant
 ```
 
 
-Run interactively and map a local directory /Users/claudia/Documents/docker_volume to the /ansible directory in the container.
+Run interactively and map a local directory /Users/claudia/Documents/docker_volume to the /ansible_local directory in the container.
 ```
-Claudias-iMac:bionic-immigrant claudia$ docker run -v  /Users/claudia/Documents/docker_volume:/ansible -it cldeluna/bionic-immigrant
+Claudias-iMac:bionic-immigrant claudia$ docker run -v  /Users/claudia/Documents/docker_volume:/ansible_local -it cldeluna/bionic-immigrant
 ```
+
+![docker-v-annotated_shell](/Users/claudia/Dropbox (Indigo Wire Networks)/scripts/docker/bionic-immigrant/docker-v-annotated_shell.png)
+
+
+
+### Get Started
 
 Check versions and modules in container 
 
