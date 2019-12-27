@@ -110,7 +110,7 @@ Run interactively and map a local directory /Users/claudia/Documents/docker_volu
 Claudias-iMac:bionic-immigrant claudia$ docker run -v  /Users/claudia/Documents/docker_volume:/ansible_local -it cldeluna/bionic-immigrant
 ```
 
-![docker-v-annotated_shell](/Users/claudia/Dropbox (Indigo Wire Networks)/scripts/docker/bionic-immigrant/docker-v-annotated_shell.png)
+![docker-v-annotated_shell](docker-v-annotated_shell.png)
 
 
 
